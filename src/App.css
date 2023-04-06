@@ -8,7 +8,7 @@
 
 .app {
     background: radial-gradient(circle at 15% 35%,#002853 0,#040c18 25%);
-    max-width: 100vw;
+    width: fit-content;
 }
 
 /* Header */
@@ -58,6 +58,7 @@
     overflow: scroll;
     margin-left: auto;
     margin-right: auto;
+    overflow-x: auto;
 }
 
 .row {
@@ -78,6 +79,7 @@
     border: 1px solid black;
     background-color: #a9a9a9;
     color: black;
+    cursor: pointer;
 }
 
 /* Footer */
