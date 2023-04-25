@@ -121,6 +121,9 @@ footer a:visited {
         font-size: 16px;
     }
     .table-container {
-        font-size: 10px;
+        font-size: 8px;
+    }
+    .table {
+        padding: 5px;
     }
 }
