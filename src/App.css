@@ -12,6 +12,7 @@
     background: radial-gradient(circle at 15% 35%,#002853 0,#040c18 25%);
     min-width: fit-content;
     width: 100%;
+    font-size: 16px;
 }
 
 /* Header */
@@ -106,8 +107,20 @@ footer a:visited {
     color: black;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 580px) {
+    .app {
+        font-size: 12px;
+    }
     .header h2 {
         font-size: 30px;
+    }
+    .suggestions {
+        font-size: 16px;
+    }
+    .table-container h2 {
+        font-size: 16px;
+    }
+    .table-container {
+        font-size: 10px;
     }
 }
